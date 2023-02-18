@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: node-app
+  repository: banzaicloud/nodejs-example
   tag: latest
   pullPolicy: IfNotPresent
 service:
