@@ -1,8 +1,0 @@
-replicaCount: 1
-image:
-  repository: banzaicloud/nodejs-example
-  tag: latest
-  pullPolicy: IfNotPresent
-service:
-  type: ClusterIP
-  port: 3000
